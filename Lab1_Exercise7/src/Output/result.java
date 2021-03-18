@@ -16,6 +16,7 @@ public class result {
 		weightInput = s.nextDouble();
 		w.setWeight(weightInput);
 		calculate c = new calculate(w.getWeight());
+		System.out.println("Your weight in Earth planet is: " + weightInput + " Kg");
 		System.out.println("Your weight in Mars planet is: " + c.result() + " Kg");
 	}
 }
